@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1435331851135724}
+  m_IsPrefabParent: 1
+--- !u!1 &1435331851135724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730597760888218}
+  - component: {fileID: 114749709587979546}
+  m_Layer: 0
+  m_Name: GameplayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730597760888218
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435331851135724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114749709587979546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435331851135724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be19695c15a28504285129f55a96a9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minMoveSpeed: 40
+  addMoveSpeedPerPowerUp: 2
+  maxBombRangePowerUp: 9
+  maxBombAmountPowerUp: 9
+  maxHeartPowerUp: 9
+  maxMoveSpeedPowerUp: 9
+  rewardCurrencies:
+  - currencyId: GOLD
+    randomAmountMin: 10
+    randomAmountMax: 15
+  killScore: 15
+  suicideScore: -20
+  watchAdsRespawnAvailable: 2
+  updateScoreDuration: 1
+  brickRespawnDuration: 60
+  respawnDuration: 5
+  invincibleDuration: 1.5
+  characterSpawnPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  powerUps:
+  - powerUpPrefab: {fileID: 114080904933632780, guid: a0d26828e9b69ce47b4405b141f134f9,
+      type: 2}
+    randomWeight: 5
+  - powerUpPrefab: {fileID: 114813495629112266, guid: e9d0d0d429a8ef343a7b0b5171874fb0,
+      type: 2}
+    randomWeight: 5
+  - powerUpPrefab: {fileID: 114080904933632780, guid: 378d861b8115d6045bb5a7291da2362c,
+      type: 2}
+    randomWeight: 5
+  - powerUpPrefab: {fileID: 114080904933632780, guid: dff91eef6a41cfc49a6e64e35cc586b5,
+      type: 2}
+    randomWeight: 5
+  noDropPowerUpWeight: 15

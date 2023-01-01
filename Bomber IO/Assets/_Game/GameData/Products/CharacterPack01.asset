@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c75c13950345b478c10604f7be8688, type: 3}
+  m_Name: CharacterPack01
+  m_EditorClassIdentifier: 
+  iconTexture: {fileID: 2800000, guid: 4088a3f789d0b6144b1875ac90189017, type: 3}
+  previewTexture: {fileID: 0}
+  category: 
+  title: Character Pack 01
+  description: Receives new hat, character and bomb.
+  pricesOption: 0
+  price:
+    id: GO
+    amount: 100
+  prices: []
+  canBuyOnlyOnce: 1
+  currencies: []
+  items:
+  - {fileID: 11400000, guid: 44ed10ab796f7e5458c2f3a0deb075da, type: 2}
+  - {fileID: 11400000, guid: a81843fe01a91244c9d95045a1a3ccf5, type: 2}
+  - {fileID: 11400000, guid: dbfb1b92edaf99d49af0cade730aa98b, type: 2}

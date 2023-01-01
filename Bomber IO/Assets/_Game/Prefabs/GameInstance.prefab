@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1661564095576188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4239646007483080}
+  - component: {fileID: 114005792904717730}
+  - component: {fileID: 114746067804190136}
+  m_Layer: 0
+  m_Name: GameInstance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4239646007483080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114005792904717730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62586585004f62d4e8ae7cc6a577ef60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maps:
+  - mapName: Battle
+    scene:
+      sceneAsset: {fileID: 102900000, guid: eb1e4e6ca6d605148b58d3ecfa166770, type: 3}
+      sceneName: Battle
+    previewImage: {fileID: 21300000, guid: 772dad571d0052e41a70f6287c705d87, type: 3}
+    availableGameRules:
+    - {fileID: 11400000, guid: 8252b738eeab41c488592c66efd0564e, type: 2}
+    - {fileID: 11400000, guid: 8a508bd358197df43a08e6a6e92b9532, type: 2}
+    - {fileID: 11400000, guid: c4903d5db157a914f945e3662788b79d, type: 2}
+  characterPrefab: {fileID: 114014327527662406, guid: dab3adc2b6eb6c54db243aaa119f47ca,
+    type: 3}
+  botPrefab: {fileID: 114440289766304596, guid: 055e3da192a16564099d418785c2b163,
+    type: 3}
+  characters:
+  - {fileID: 11400000, guid: 31e4a298daa5e434ba338b931956b6d4, type: 2}
+  - {fileID: 11400000, guid: fa875a1ef2e24814caed7c65e86dee63, type: 2}
+  - {fileID: 11400000, guid: 44ed10ab796f7e5458c2f3a0deb075da, type: 2}
+  heads:
+  - {fileID: 11400000, guid: d587d1b65f6ceeb4fa1ba698e81c8dac, type: 2}
+  - {fileID: 11400000, guid: 58beca05defaefe4a8a656329d41577b, type: 2}
+  - {fileID: 11400000, guid: 4fd1852aeecc67842b2b25f50d9c2855, type: 2}
+  - {fileID: 11400000, guid: a81843fe01a91244c9d95045a1a3ccf5, type: 2}
+  bombs:
+  - {fileID: 11400000, guid: 78f238f493f290d488296be9b17619d9, type: 2}
+  - {fileID: 11400000, guid: 1220832a2bcb662489c43cb512af2634, type: 2}
+  - {fileID: 11400000, guid: dbfb1b92edaf99d49af0cade730aa98b, type: 2}
+  bots:
+  - name: Josh
+    headDataIndex: 0
+    bombDataIndex: 0
+    characterDataIndex: 0
+  - name: Rose
+    headDataIndex: 1
+    bombDataIndex: 0
+    characterDataIndex: 1
+  - name: Marry
+    headDataIndex: 2
+    bombDataIndex: 0
+    characterDataIndex: 2
+  - name: Randeer
+    headDataIndex: -1
+    bombDataIndex: 0
+    characterDataIndex: -1
+  customEquipments: []
+  characterLayer: 8
+  bombLayer: 9
+  brickLayer: 10
+  mapLayer: 11
+  showJoystickInEditor: 0
+  watchAdsRespawnPlacement: respawnPlacement
+--- !u!114 &114746067804190136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381532b762211664d80ffd2a4ade737a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidGameId: 1806694
+  iosGameId: 1806693
+  testMode: 1
+  adsOverrideActions: []
+  products:
+  - {fileID: 11400000, guid: 71b081bc5c9b0ac4092991c23559bcf4, type: 2}
+  currencies:
+  - id: GO
+    startAmount: 1000
+    name: Gold
+    symbol: G.
+  rewardVideoPlacement: rewardedVideo
+  adsRewards:
+  - currencies:
+    - id: GOLD
+      amount: 100
+    items: []
+    randomWeight: 2
+  save: {fileID: 0}

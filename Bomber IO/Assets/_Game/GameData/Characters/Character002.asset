@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c3ea8f4b6baad499a9808da2129f8d, type: 3}
+  m_Name: Character002
+  m_EditorClassIdentifier: 
+  iconTexture: {fileID: 0}
+  previewTexture: {fileID: 0}
+  category: 
+  title: 
+  description: 
+  pricesOption: 0
+  price:
+    id: 
+    amount: 0
+  prices: []
+  canBuyOnlyOnce: 0
+  isLock: 0
+  stats:
+    bombRange: 0
+    bombAmount: 0
+    heart: 0
+    moveSpeed: 0
+    canKickBomb: 1
+  modelObject: {fileID: 114568944422771768, guid: 4958475fa962ec249bdc16573623a452,
+    type: 3}
