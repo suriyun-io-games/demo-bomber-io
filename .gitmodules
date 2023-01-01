@@ -1,0 +1,18 @@
+[submodule "Bomber IO/Assets/_Submodules/unity-simple-character-parts"]
+	path = Bomber IO/Assets/_Submodules/unity-simple-character-parts
+	url = https://github.com/insthync/unity-simple-character-parts.git
+[submodule "Bomber IO/Assets/_Submodules/unity-simple-monetization"]
+	path = Bomber IO/Assets/_Submodules/unity-simple-monetization
+	url = https://github.com/insthync/unity-simple-monetization.git
+[submodule "Bomber IO/Assets/_Submodules/unity-camera-and-input"]
+	path = Bomber IO/Assets/_Submodules/unity-camera-and-input
+	url = https://github.com/insthync/unity-camera-and-input.git
+[submodule "Bomber IO/Assets/_Submodules/unity-audio-manager"]
+	path = Bomber IO/Assets/_Submodules/unity-audio-manager
+	url = https://github.com/insthync/unity-audio-manager.git
+[submodule "Bomber IO/Assets/_Submodules/UnityPrimitiveData"]
+	path = Bomber IO/Assets/_Submodules/UnityPrimitiveData
+	url = https://github.com/insthync/UnityPrimitiveData.git
+[submodule "Bomber IO/Assets/_Submodules/UnityEditorUtils"]
+	path = Bomber IO/Assets/_Submodules/UnityEditorUtils
+	url = https://github.com/insthync/UnityEditorUtils.git
