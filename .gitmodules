@@ -16,3 +16,6 @@
 [submodule "Bomber IO/Assets/_Submodules/UnityEditorUtils"]
 	path = Bomber IO/Assets/_Submodules/UnityEditorUtils
 	url = https://github.com/insthync/UnityEditorUtils.git
+[submodule "Bomber IO/Assets/_Submodules/simple-photon2-networkmanager"]
+	path = Bomber IO/Assets/_Submodules/simple-photon2-networkmanager
+	url = https://github.com/insthync/simple-photon2-networkmanager.git
