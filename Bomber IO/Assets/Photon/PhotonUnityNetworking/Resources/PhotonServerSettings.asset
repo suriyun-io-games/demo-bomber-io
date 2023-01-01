@@ -39,6 +39,41 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - RpcAddPlayer
+  - RpcChangePlayerTeam
+  - RpcExplode
+  - RpcIsDeadChanged
+  - RpcKick
+  - RpcKillNotify
+  - RpcMatchStatus
+  - RpcPlayerSceneChanged
+  - RpcServerInit
+  - RpcServerPlantBomb
+  - RpcServerReady
+  - RpcServerRespawn
+  - RpcShowChat
+  - RpcShowEmoticon
+  - RpcTargetDead
+  - RpcTargetRewardCurrency
+  - RpcTargetSpawn
+  - RpcUpdateAddBombRange
+  - RpcUpdateAssistCount
+  - RpcUpdateBotName
+  - RpcUpdateCharacterStats
+  - RpcUpdateDieCount
+  - RpcUpdateExtra
+  - RpcUpdateIsDead
+  - RpcUpdateIsInvincible
+  - RpcUpdateIsRendererDisabled
+  - RpcUpdateKillCount
+  - RpcUpdatePlanterViewId
+  - RpcUpdateScore
+  - RpcUpdateScores
+  - RpcUpdateSelectBomb
+  - RpcUpdateSelectCharacter
+  - RpcUpdateSelectCustomEquipments
+  - RpcUpdateSelectHead
+  - RpcUpdateWatchAdsCount
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
