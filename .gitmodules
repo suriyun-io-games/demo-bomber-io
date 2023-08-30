@@ -1,27 +1,27 @@
 [submodule "Bomber IO/Assets/_Submodules/unity-simple-character-parts"]
 	path = Bomber IO/Assets/_Submodules/unity-simple-character-parts
-	url = https://github.com/insthync/unity-simple-character-parts.git
+	url = ../../insthync/unity-simple-character-parts.git
 [submodule "Bomber IO/Assets/_Submodules/unity-simple-monetization"]
 	path = Bomber IO/Assets/_Submodules/unity-simple-monetization
-	url = https://github.com/insthync/unity-simple-monetization.git
+	url = ../../insthync/unity-simple-monetization.git
 [submodule "Bomber IO/Assets/_Submodules/unity-camera-and-input"]
 	path = Bomber IO/Assets/_Submodules/unity-camera-and-input
-	url = https://github.com/insthync/unity-camera-and-input.git
+	url = ../../insthync/unity-camera-and-input.git
 [submodule "Bomber IO/Assets/_Submodules/unity-audio-manager"]
 	path = Bomber IO/Assets/_Submodules/unity-audio-manager
-	url = https://github.com/insthync/unity-audio-manager.git
+	url = ../../insthync/unity-audio-manager.git
 [submodule "Bomber IO/Assets/_Submodules/UnityPrimitiveData"]
 	path = Bomber IO/Assets/_Submodules/UnityPrimitiveData
-	url = https://github.com/insthync/UnityPrimitiveData.git
+	url = ../../insthync/UnityPrimitiveData.git
 [submodule "Bomber IO/Assets/_Submodules/UnityEditorUtils"]
 	path = Bomber IO/Assets/_Submodules/UnityEditorUtils
-	url = https://github.com/insthync/UnityEditorUtils.git
+	url = ../../insthync/UnityEditorUtils.git
 [submodule "Bomber IO/Assets/_Submodules/simple-photon2-networkmanager"]
 	path = Bomber IO/Assets/_Submodules/simple-photon2-networkmanager
-	url = https://github.com/insthync/simple-photon2-networkmanager.git
+	url = ../../insthync/simple-photon2-networkmanager.git
 [submodule "Bomber IO/Assets/_Submodules/photon-bomber-io-core"]
 	path = Bomber IO/Assets/_Submodules/photon-bomber-io-core
-	url = https://github.com/insthync/photon-bomber-io-core.git
+	url = ../photon-bomber-io-core.git
 [submodule "Bomber IO/Assets/_Submodules/bomber-io-playfab-client-demo"]
 	path = Bomber IO/Assets/_Submodules/bomber-io-playfab-client-demo
-	url = https://github.com/insthync/bomber-io-playfab-client-demo.git
+	url = ../bomber-io-playfab-client-demo.git
